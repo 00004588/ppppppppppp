@@ -1,0 +1,615 @@
+*{
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+header h4{
+    color: #4fd6ffef;
+}
+
+.headerpequeño{
+    background-color: rgb(2, 18, 27);
+    color: rgb(238, 238, 238);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5%;
+    position: relative;
+    
+}
+
+.logo{
+    display: flex;
+}
+
+.logo i{
+    font-size: 25px
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover{
+    background-color: #222;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.headerpequeño .icono{
+    display: flex;
+    position: relative;
+    left: 800px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin-bottom: 0;
+}
+
+nav ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style-type: none;
+    
+}
+
+/* carrusel */
+
+.carousel-inner{
+    height: 500px;
+}
+
+
+
+.uno{
+    background-color: rgb(2, 18, 27);
+    height: 100%;
+    background-size: 100%;
+    color: white;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-image: url(Tenis_de_running_Duramo_Speed_2_Rojo_JI3004_01_00_standard.avif);
+    background-position: center;
+}
+
+.dos{
+    background-color: rgb(2, 18, 27);
+    height: 100%;
+    background-size: 100%;
+    color: white;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-image: url(tenis_de_running_Duramo_Speed_2_Rojo_JI3004_01_00_standard.avif);
+    background-position: center;
+    background-size: 100%;
+}
+
+.tres{
+    background-color: rgb(2, 18, 27);
+    height: 100%;
+    background-size: 100%;
+    color: white;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-image: url(tenis_de_running_Duramo_Speed_2_Rojo_JI3004_01_00_standard.avif);
+    background-position: center;
+    background-size: 100%;
+}
+
+.carousel-item h1{
+    color: black;   
+}
+
+
+/* footer */
+/* footer{
+    height: 4000px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li{
+    background-color: rgb(2, 18, 27);
+    color: rgb(238, 238, 238);
+    width: 100;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5%;
+    position: relative;
+    gap: 1rem;
+    border-top: 1px solid gray;
+} */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  background-color: rgb(2, 18, 27);
+  color: rgb(238, 238, 238);
+  padding: 40px;
+}
+
+.col-contacto h4,
+.col-productos h4,
+.col-info h4 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.col-productos ul,
+.col-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.col-productos ul li,
+.col-info ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.col-productos ul li a{ 
+    color: #f9f9f9;
+    text-decoration: none;
+
+}
+
+.col-productos ul li a:hover{ 
+    color: rgb(2, 18, 27);
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+}
+
+.col-info ul li a{ 
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+.col-info ul li a:hover{ 
+    color: rgb(2, 18, 27);
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+}
+
+.col-contacto i a{ 
+    color: #4fd6ffef;
+    text-decoration: none;
+}
+
+.col-contactp ul li a:hover{ 
+    color: rgb(2, 18, 27);
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+}
+
+
+
+
+/* nosotros */
+
+.nosotros {
+  background-color: #f9f9f9;
+  color: #222;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contenedor-nosotros {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nosotros h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: rgb(2, 18, 27);
+}
+
+.nosotros p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* contacto */
+
+form {
+            border: 1px solid rgb(4, 5, 97);
+            height: 400px;
+            width: 50%;
+            overflow: scroll;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .registro h2{
+            text-align: center;
+        }
+
+        .botones{
+            width: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 2rem;
+            margin-top: 20px;
+            border-top: 1px solid rgb(4, 5, 97);
+            padding-top: 20px;
+        }
+
+        .botones button{
+            width: 100%;
+        }
+
+
+        /* serviciso */
+
+
+.tipo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.comunes{
+    text-align: center;
+}
+
+.marca{
+    position:absolute;
+}
+
+.introduccion{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 1rem;
+
+    
+}
+
+.card-img-top{
+    border: 1px solid rgb(0, 0, 0);
+    object-fit: cover;
+    height: 200px;
+}
+
+.card{
+    margin-top: 100px;
+    border: 1px solid red;
+}
+.mas{
+    border-radius: 10px;
+    background-color: #0da1f7;
+    width: 500px;
+    padding: 10px;
+    cursor: pointer;
+    margin: auto;
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+
+.mas a{
+    text-decoration: none;
+    color: black;
+}
+
+.mas:hover{
+    background-color: #207eb4;
+}
+
+.tenis{
+    margin-bottom: 50px;
+    position:absolute;
+}
+
+/* nosotor */
+
+
+
+.nostroos {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+    width: 100%;
+    margin-top: -400px;
+    color: white;
+    overflow: hidden;
+}
+
+.nostroos .vision {
+    background-size: 100%;
+    margin-top: 0;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    background: linear-gradient(to left, rgba(155, 25, 25, 0.877), rgba(1, 1, 19, 0.616)), url(https://cdn.pixabay.com/photo/2020/06/01/22/23/eye-5248678_960_720.jpg);
+}
+
+.nostroos .vision p {
+    overflow: hidden;
+    transform: translatex(-800px);
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.nostroos .mision p {
+    overflow: hidden;
+    transform: translatex(800px);
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.nostroos .mision:hover p {
+    transform: translateY(0);
+}
+
+.nostroos .vision:hover p {
+    transform: translateY(0);
+}
+
+.nostroos .mision {
+    margin-top: 0;
+    font-size: 40px;
+    background-size: 100%;
+
+    background: linear-gradient(to left, rgba(1, 1, 19, 0.616), rgba(155, 25, 25, 0.897)), url(https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg);
+}
+
+
+/* noistrosa miembreos de la cocian */
+
+.miembros {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    margin-top: 100px;
+
+}
+
+
+.chef {
+    width: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    height: 300px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: rgb(224, 213, 213);
+    border-radius: 20px;
+}
+
+/* generafal chef */
+
+.chef h3 {
+    transform: translatey(140px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.chef .foto:hover h3 {
+    transform: translateY(0);
+}
+
+
+.chef .foto {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.chef h3 {
+    /* position: absolute;
+    top: 0; */
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+
+}
+
+.chef .foto {
+    border: 1px solid rgb(0, 0, 0);
+    /* background: linear-gradient(to left, rgba(1, 1, 19, 0.616),rgba(155, 25, 25, 0.897)) , url(https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg); */
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.301), rgba(0, 0, 0, 0.644)), url(https://tse3.mm.bing.net/th/id/OIP._AJotxoiUqTYWCqF68hgQwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    border-radius: 200%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+
+/* limpieza */
+
+.chef .fotoLimpieza {
+    border: 1px solid rgb(0, 0, 0);
+    /* background: linear-gradient(to left, rgba(1, 1, 19, 0.616),rgba(155, 25, 25, 0.897)) , url(https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg); */
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.301), rgba(0, 0, 0, 0.644)), url(https://cdn.pixabay.com/photo/2019/04/02/18/16/cleaning-4098410_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    border-radius: 200%;
+    height: 200px;
+}
+
+/* recepcionuista */
+
+.chef .fotoRecepcionista {
+    border: 1px solid rgb(0, 0, 0);
+    /* background: linear-gradient(to left, rgba(1, 1, 19, 0.616),rgba(155, 25, 25, 0.897)) , url(https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg); */
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.301), rgba(0, 0, 0, 0.644)), url(https://cdn.pixabay.com/photo/2012/02/29/11/59/agent-18762_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    border-radius: 200%;
+    height: 200px;
+}
+
+/* bartender  */
+
+.chef .fotoBartender {
+    border: 1px solid rgb(0, 0, 0);
+    /* background: linear-gradient(to left, rgba(1, 1, 19, 0.616),rgba(155, 25, 25, 0.897)) , url(https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg); */
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.301), rgba(0, 0, 0, 0.644)), url(https://cdn.pixabay.com/photo/2020/09/12/05/11/model-5564913_960_720.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 200px;
+    border-radius: 200%;
+    height: 200px;
+}
+
+/* meceros */
+
+.chef .fotomecero {
+    border: 1px solid rgb(0, 0, 0);
+    /* background: linear-gradient(to left, rgba(1, 1, 19, 0.616),rgba(155, 25, 25, 0.897)) , url(https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg); */
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.301), rgba(0, 0, 0, 0.644)), url(https://cdn.pixabay.com/photo/2023/08/23/06/14/woman-8207704_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    border-radius: 200%;
+    height: 200px;
+}
+
+/* geretne */
+
+.chef .fotogerente {
+    border: 1px solid rgb(0, 0, 0);
+    /* background: linear-gradient(to left, rgba(1, 1, 19, 0.616),rgba(155, 25, 25, 0.897)) , url(https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg); */
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.301), rgba(0, 0, 0, 0.644)), url(https://cdn.pixabay.com/photo/2022/01/07/19/06/executive-6922418_1280.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 200px;
+    border-radius: 200%;
+    height: 200px;
+}
+
+
+/* parilla */
+
+.chef .fotoparilla {
+    border: 1px solid rgb(0, 0, 0);
+    /* background: linear-gradient(to left, rgba(1, 1, 19, 0.616),rgba(155, 25, 25, 0.897)) , url(https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg); */
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.301), rgba(0, 0, 0, 0.644)), url(https://cdn.pixabay.com/photo/2017/05/30/11/28/chef-2356648_1280.jpg);
+    background-size: cover;
+    background-position: left left left left;
+    width: 200px;
+    border-radius: 200%;
+    height: 200px;
+}
+
+/* ayudante */
+
+.chef .fotoayudante {
+    border: 1px solid rgb(0, 0, 0);
+    /* background: linear-gradient(to left, rgba(1, 1, 19, 0.616),rgba(155, 25, 25, 0.897)) , url(https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg); */
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.301), rgba(0, 0, 0, 0.644)), url(https://th.bing.com/th/id/R.28e2599db45fe4a13316a580fe00a6a4?rik=EHdkmmiBiW4Q8Q&riu=http%3a%2f%2f1.bp.blogspot.com%2f-1yIlocuhN9A%2fVjTUiIn8O-I%2fAAAAAAAABz8%2fd3MDeazcTDs%2fs1600%2f11080824_351430138388726_2374566367614438083_o.jpg&ehk=w7AKP2RJzZTRBhLVs4F1Bmzby%2favDqwio7KbVBTioFY%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: top;
+    width: 200px;
+    border-radius: 200%;
+    height: 200px;
+}
+
+/* jefe segundo */
+.chef .fotochefdos {
+    border: 1px solid rgb(0, 0, 0);
+    /* background: linear-gradient(to left, rgba(1, 1, 19, 0.616),rgba(155, 25, 25, 0.897)) , url(https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_1280.jpg); */
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.301), rgba(0, 0, 0, 0.644)), url(https://cdn.pixabay.com/photo/2018/09/25/08/40/chefs-3701718_1280.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 200px;
+    border-radius: 200%;
+    height: 200px;
+}
+
+
+
+/* quer */
+
+
+/* Celulares grandes (máx 768px) */
+@media (max-width: 768px) {
+  .headerpequeño {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-inner {
+    height: 300px;
+  }
+
+  .card img {
+    height: 160px;
+  }
+
+  footer .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Celulares pequeños (máx 576px) */
+@media (max-width: 576px) {
+  .headerpequeño {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  nav ul li {
+    font-size: 12px;
+  }
+
+  .carousel-inner {
+    height: 220px;
+  }
+
+  .card img {
+    height: 140px;
+  }
+}
